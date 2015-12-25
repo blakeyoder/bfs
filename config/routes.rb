@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # root page, this asks client to confirm age
-  root 'welcome#index'
+  root 'welcome#landing'
+  get 'index' => 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

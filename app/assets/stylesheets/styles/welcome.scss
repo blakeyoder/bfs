@@ -1,0 +1,46 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.hero-image {
+  position: relative;
+  left: 0;
+  display: table;
+  height: 550px;
+  width: 100%;
+  background: image-url('bottles.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.vertically-centered-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.banner-text{
+  font-family: $main-font;
+  color: white;
+  font-size: 45px;
+}
+
+.main-section-home {
+  position: relative;
+}
+
+#short-about {
+  padding: 75px 0;
+}
+
+.short-bio {
+  font-family: $main-font;
+  text-align: center;
+  font-size: 18px;
+}
+
+#short-bio-break {
+  border-top: 8px solid #23f0d0;
+  margin-top: 40px;
+}

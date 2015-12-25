@@ -12,5 +12,33 @@
  */
 
 // Use import statements to require other app stylesheets
-
  @import "bootstrap";
+ @import "main";
+
+ .navbar {
+   box-shadow: 0px 2px 8px #121F1F;
+   height: 100px;
+ }
+
+ .navbar-nav {
+   margin: 0;
+   display: table;
+   width: 100%;
+ }
+
+ .navbar .nav li {
+   display: table-cell;
+   width: 1%;
+   float: none;
+ }
+
+ .nav-link {
+   line-height: 70px;
+   text-align: center;
+   font-family: $main-font;
+ }
+
+ .logo {
+   padding-left: 125px;
+   padding-right: 125px;
+ }

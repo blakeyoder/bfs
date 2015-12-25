@@ -2,13 +2,48 @@
 <html>
 <head>
   <title>Birds Fly South</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+<div class="container-fluid">
+  <!-- navbar -->
+  <nav class="navbar navbar-fixed-top navbar-light" style="background-color: #FFFFFF;">
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+      &#9776;
+    </button>
+    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Beers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our History</a>
+        </li>
+        <li class="nav-item logo">
+          <a class="nav-link" href="#">Logo Placeholder</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Locator</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+    </ul>
+  </div>
+  </nav>
+  </div>
+  <%= yield %>
 
 </body>
 </html>
