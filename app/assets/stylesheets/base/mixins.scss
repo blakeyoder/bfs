@@ -6,7 +6,7 @@
 }
 
 @mixin bp-medium {
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 972px) {
     @content;
   }
 }
@@ -15,4 +15,8 @@
   @media only screen and (min-width: 640px) {
     @content;
   }
+}
+
+@mixin the-quick-ease($property){
+  @include transition($property .2s ease-out)
 }

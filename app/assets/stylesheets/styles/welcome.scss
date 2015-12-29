@@ -14,10 +14,20 @@
   margin-top: 100px;
 }
 
+.logo-image {
+  margin-top: -10px;
+}
+
 .vertically-centered-text {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+}
+
+.center-text{
+  width: 375px;
+  height: 150px;
+  margin: 0 auto;
 }
 
 .banner-text{
@@ -34,8 +44,17 @@
   padding: 75px 0;
 }
 
+.background-gradient{
+  background-color: #4E565D;
+  height: 225%;
+  width: 100%;
+  position: absolute;
+}
+
 .short-bio {
   font-family: $main-font;
+  font-weight: 100;
+  color: white;
   text-align: center;
   font-size: 18px;
 }
@@ -43,4 +62,18 @@
 #short-bio-break {
   border-top: 8px solid #23f0d0;
   margin-top: 40px;
+}
+
+#links-text{
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+  font-family: $main-font;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.link-image{
+  width:100%;
+  margin: 0 auto;
 }
