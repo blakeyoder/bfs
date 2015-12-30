@@ -26,6 +26,10 @@
    width: 100%;
  }
 
+.navbar-nav .nav-item + .nav-item {
+   margin-left: 0px;
+ }
+
  .navbar .nav li {
    display: table-cell;
    width: 1%;
@@ -41,9 +45,6 @@
    line-height: 15px;
    text-align: center;
    font-family: $main-font;
-   @include bp-small{
-     display: block;
-   }
  }
 
  .navbar-toggler {

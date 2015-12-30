@@ -15216,3 +15216,867 @@ Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9ad
 
 
 Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:45:35 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:49:33 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 444ms (Views: 440.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c05bece70dfb2a1cf04b041da86da1594972782bc49f52102ef7920d21820c09.css?body=1" for ::1 at 2015-12-29 22:49:34 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:49:34 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:49:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:49:35 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:49:35 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:49:35 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:49:35 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:49:35 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:49:35 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:49:35 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:50:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 351ms (Views: 350.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c05bece70dfb2a1cf04b041da86da1594972782bc49f52102ef7920d21820c09.css?body=1" for ::1 at 2015-12-29 22:50:35 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:50:35 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:50:35 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:50:35 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:50:35 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:50:35 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:50:35 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:50:35 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:50:35 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:50:35 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:50:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c05bece70dfb2a1cf04b041da86da1594972782bc49f52102ef7920d21820c09.css?body=1" for ::1 at 2015-12-29 22:50:42 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:50:42 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:50:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:50:42 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:50:42 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:50:42 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:50:42 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:50:42 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:50:42 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:50:42 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:52:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2211ms (Views: 2207.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-05fae1e7135fa526691c25075e5edc967ecdda40005a9f3af8aa070e2f0c4267.css?body=1" for ::1 at 2015-12-29 22:52:16 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:52:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:52:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:52:16 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:52:16 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:52:16 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:52:16 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:52:16 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:52:16 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:52:16 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:52:22 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 126ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c05bece70dfb2a1cf04b041da86da1594972782bc49f52102ef7920d21820c09.css?body=1" for ::1 at 2015-12-29 22:52:22 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:52:22 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:52:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:52:22 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:52:22 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:52:22 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:52:22 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:52:22 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:52:22 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:52:22 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:52:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2990ms (Views: 2989.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:52:57 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:52:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:52:57 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:52:57 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:52:57 -0500
+
+
+Started GET "/assets/application.self-398545404f6ee4b8f1adb867a4adb1a76793d3e956becccac6d07af545060014.css?body=1" for ::1 at 2015-12-29 22:52:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:52:57 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:52:57 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:52:57 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:52:57 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:53:05 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1398ms (Views: 1397.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:53:06 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:53:06 -0500
+
+
+Started GET "/assets/application.self-f22d2d37dc60d63036059212ce5e3f74b1fd6ae63610e43b25742547befe00be.css?body=1" for ::1 at 2015-12-29 22:53:06 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:53:06 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:53:06 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:53:06 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:53:06 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:53:06 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:53:06 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:53:06 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:53:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 160ms (Views: 159.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:53:41 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:53:41 -0500
+
+
+Started GET "/assets/application.self-c05bece70dfb2a1cf04b041da86da1594972782bc49f52102ef7920d21820c09.css?body=1" for ::1 at 2015-12-29 22:53:41 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:53:41 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:53:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:53:41 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:53:41 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:53:41 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:53:41 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:53:41 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:53:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1639ms (Views: 1638.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-49a390747c1fcff3f23498df39a8561eae737abc955adaada546cf6b50fd6c50.css?body=1" for ::1 at 2015-12-29 22:53:56 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:53:56 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:53:56 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:53:56 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:53:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:53:56 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:53:56 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:53:56 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:53:56 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:53:56 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:54:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1617ms (Views: 1615.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-53b2927865a0f55d97b496a9b32dbdfe5c3af08c227a9d663ccf499975b0d5b7.css?body=1" for ::1 at 2015-12-29 22:54:08 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:54:08 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:54:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:54:08 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:54:08 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:54:08 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:54:08 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:54:08 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:54:08 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:54:08 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:55:03 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2055ms (Views: 2053.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:55:06 -0500
+
+
+Started GET "/assets/application.self-30ef076d93104041229a37620ace205f72c4422bb754a0e80747042124599337.css?body=1" for ::1 at 2015-12-29 22:55:06 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:55:06 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:55:06 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:55:06 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:55:06 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:55:06 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:55:06 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:55:06 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:55:06 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:55:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2075ms (Views: 2074.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a83b277307bed7897658ae7f994682ef3dd161fbefd6a8b2fd786b1d5726d511.css?body=1" for ::1 at 2015-12-29 22:55:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:55:19 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:55:19 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:55:19 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:55:19 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:55:19 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:55:19 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:55:19 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:55:19 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:55:19 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:55:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 180ms (Views: 176.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-53b2927865a0f55d97b496a9b32dbdfe5c3af08c227a9d663ccf499975b0d5b7.css?body=1" for ::1 at 2015-12-29 22:55:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:55:54 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:55:54 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:55:54 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:55:54 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:55:54 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:55:54 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:55:54 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:55:55 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:55:55 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:56:00 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:56:00 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:56:00 -0500
+
+
+Started GET "/assets/application.self-53b2927865a0f55d97b496a9b32dbdfe5c3af08c227a9d663ccf499975b0d5b7.css?body=1" for ::1 at 2015-12-29 22:56:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:56:00 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:56:00 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:56:00 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:56:00 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:56:00 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:56:00 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:56:01 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:56:15 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-53b2927865a0f55d97b496a9b32dbdfe5c3af08c227a9d663ccf499975b0d5b7.css?body=1" for ::1 at 2015-12-29 22:56:15 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:56:15 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:56:15 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:56:15 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:56:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:56:15 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:56:15 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:56:15 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:56:15 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:56:15 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:57:01 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2297ms (Views: 2295.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6080b454a169110c270be0c3ea4f9d17c5b622f3d097c37799c5fa95b5f39877.css?body=1" for ::1 at 2015-12-29 22:57:03 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:57:03 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:57:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:57:03 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:57:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:57:03 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:57:03 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:57:03 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:57:03 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:57:03 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:57:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2565ms (Views: 2563.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7abb05a0fe9aa9798b82adbcfeea945637101689a7d2a570db1bea74e053944c.css?body=1" for ::1 at 2015-12-29 22:57:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:57:59 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:57:59 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:57:59 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:57:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:57:59 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:57:59 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:57:59 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:57:59 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:57:59 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:58:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 97ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:58:20 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:58:20 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:58:20 -0500
+
+
+Started GET "/assets/application.self-53b2927865a0f55d97b496a9b32dbdfe5c3af08c227a9d663ccf499975b0d5b7.css?body=1" for ::1 at 2015-12-29 22:58:20 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:58:20 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:58:20 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:58:20 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:58:20 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:58:20 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:58:20 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:58:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-53b2927865a0f55d97b496a9b32dbdfe5c3af08c227a9d663ccf499975b0d5b7.css?body=1" for ::1 at 2015-12-29 22:58:31 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:58:31 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:58:31 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:58:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:58:31 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:58:31 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:58:31 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:58:31 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:58:31 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:58:31 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:58:37 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:58:37 -0500
+
+
+Started GET "/assets/application.self-53b2927865a0f55d97b496a9b32dbdfe5c3af08c227a9d663ccf499975b0d5b7.css?body=1" for ::1 at 2015-12-29 22:58:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:58:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:58:37 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:58:37 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:58:37 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:58:37 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:58:37 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:58:37 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:58:37 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:59:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3343ms (Views: 3341.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:59:21 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:59:21 -0500
+
+
+Started GET "/assets/application.self-5f29075ba7481df01717234690b3be50d0315c9589574b1c9738c7a72ade5565.css?body=1" for ::1 at 2015-12-29 22:59:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:59:21 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:59:21 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:59:21 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:59:21 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:59:21 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:59:21 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:59:21 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 22:59:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1879ms (Views: 1878.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 22:59:46 -0500
+
+
+Started GET "/assets/application.self-b3a81ca43de076d22d1791a4b2a868c3d6ff6fb8e8d23aa177f0fc11b641c9a2.css?body=1" for ::1 at 2015-12-29 22:59:46 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 22:59:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 22:59:46 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 22:59:46 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 22:59:46 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 22:59:46 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 22:59:46 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 22:59:46 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 22:59:46 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 23:00:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1955ms (Views: 1953.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e34d01b58f4fd9eb2a2621e7d4065c390c6935bc7c66321e303f3595cd352193.css?body=1" for ::1 at 2015-12-29 23:00:16 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 23:00:16 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 23:00:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 23:00:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 23:00:16 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 23:00:16 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 23:00:16 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 23:00:16 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 23:00:16 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 23:00:16 -0500
+
+
+Started GET "/index" for ::1 at 2015-12-29 23:01:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1546ms (Views: 1545.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-29 23:01:06 -0500
+
+
+Started GET "/assets/bootstrap.self-e7dfe29e9f594eb85eead62e3ed95df169b0fc3d21fe0468a812e399c9fcc604.js?body=1" for ::1 at 2015-12-29 23:01:06 -0500
+
+
+Started GET "/assets/application.self-8975eedd40a1e995812c93b633bfbccf0f7c6982fbae7b4bc4923ffc3d7516a2.css?body=1" for ::1 at 2015-12-29 23:01:06 -0500
+
+
+Started GET "/assets/cookie.self-01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b.js?body=1" for ::1 at 2015-12-29 23:01:06 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-29 23:01:06 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-29 23:01:06 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-29 23:01:06 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-12-29 23:01:06 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2015-12-29 23:01:06 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2015-12-29 23:01:07 -0500
