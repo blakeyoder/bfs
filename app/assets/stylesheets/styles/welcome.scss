@@ -16,6 +16,9 @@
 
 .logo-image {
   margin-top: -10px;
+  @include bp-small {
+    margin-top: 0px;
+  }
 }
 
 .vertically-centered-text {
@@ -44,11 +47,8 @@
   padding: 75px 0;
 }
 
-.background-gradient{
-  background-color: #4E565D;
-  height: 225%;
-  width: 100%;
-  position: absolute;
+body {
+  background-color: #4e565d;
 }
 
 .short-bio {
@@ -62,6 +62,11 @@
 #short-bio-break {
   border-top: 8px solid #23f0d0;
   margin-top: 40px;
+}
+
+#circular-image{
+  height: 100%;
+  width: 100%;
 }
 
 #links-text{
