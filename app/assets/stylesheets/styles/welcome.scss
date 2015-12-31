@@ -14,13 +14,6 @@
   margin-top: 100px;
 }
 
-.logo-image {
-  margin-top: -10px;
-  @include bp-small {
-    margin-top: 0px;
-  }
-}
-
 .vertically-centered-text {
   display: table-cell;
   text-align: center;
@@ -47,10 +40,6 @@
   padding: 75px 0;
 }
 
-body {
-  background-color: #4e565d;
-}
-
 .short-bio {
   font-family: $main-font;
   font-weight: 100;
@@ -71,6 +60,7 @@ body {
 
 #links-text{
   padding-top: 30px;
+  padding-bottom: 50px;
   color: white;
   text-align: center;
   font-family: $main-font;
