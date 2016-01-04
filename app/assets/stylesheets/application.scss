@@ -15,9 +15,17 @@
  @import "bootstrap";
  @import "main";
 
- body {
+ html, body {
    background-color: #2F4F4F;
+   height: 100%;
  }
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  &:hover {
+    //color: #777;
+  }
+}
 
  .navbar {
    box-shadow: 0px 2px 8px #121F1F;
@@ -82,11 +90,4 @@
    @include bp-medium {
      display: inline-block;
    }
- }
-
- .footer {
-   height: 500px;
-   width: 100%;
-   margin-top: 150px;
-   background-color: #1C2F2F;
  }

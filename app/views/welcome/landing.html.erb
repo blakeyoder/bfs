@@ -7,11 +7,17 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<h1>Landing Page</h1>
+  <div class="container">
+    <div class="age-checker">
+      <button><a class="over-21" href="/index">Yes</a></button>
+      <button><a href="/">No</a></button>
+    </div>
+  </div>
 
 </body>
 </html>

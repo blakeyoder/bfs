@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   # root page, this asks client to confirm age
   root 'welcome#landing'
   get 'index' => 'welcome#index'
+  resources :beers do
+    resources :images
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

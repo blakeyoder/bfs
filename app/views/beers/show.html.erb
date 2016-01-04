@@ -1,0 +1,25 @@
+<% @beer.images.each do |image| %>
+  <% if image.background_image? %>
+    <div class="beer-image", style="background-image: url('<%= image.file.url %>')">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="col-md-4 col-sm-4">
+            <p class="beer-name"><%= @beer.name %></p>
+            <p><%= @beer.description %></p>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <%= image_tag('rustic-sunday.png', :class => "img-responsive beer-bottle-image") %>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="beer-info">
+              <p>Style: <%= @beer.style %></p>
+              <p>ABV: <%= @beer.abv %></p>
+              <p>IBU: <%= @beer.ibu %></p>
+              <p>Color: <%= @beer.color %></p>
+            </div>
+          </div>
+        </div>
+    </div>
+  <% end %>
+<% end %>
+
+<!-- <p><%= link_to 'Upload new image', new_beer_image_path(@beer) %></p> -->

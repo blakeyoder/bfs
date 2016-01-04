@@ -2,11 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.age-checker{
+  width: 200px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 100px;;
+}
+
 .hero-image {
   position: relative;
   left: 0;
   display: table;
-  height: 550px;
+  min-height: 600px;
   width: 100%;
   background: image-url('bottles.jpg') no-repeat;
   background-position: 50% 50%;
@@ -71,4 +78,14 @@
 .link-image{
   width:100%;
   margin: 0 auto;
+  @include bp-medium {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+  }
+  @include bp-small {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
 }
