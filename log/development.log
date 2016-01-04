@@ -39631,3 +39631,414 @@ Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da9
 
 
 Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-03 22:20:04 -0500
+
+
+Started GET "/beers/1" for ::1 at 2016-01-03 22:25:32 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.1ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 2917ms (Views: 2916.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/js.cookie.self-a0a4861d9b643465d87ef0d876a7e6b312840825e48e54cd216f92535af4bbca.js?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/application.self-1105be72bc611f87c651b8490bf976b2830dda7684aba5e5e9cabe30e4c5fb6b.css?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/beers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/cookie.self-7a676ea83c6071edcfa30be5a5443e022dd67b7969ac68e8e48ab04f6c58163d.js?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da94a8985a9ba3e4034556.png" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-03 22:25:35 -0500
+
+
+Started GET "/beers/1" for ::1 at 2016-01-03 22:25:46 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.2ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 1793ms (Views: 1791.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/application.self-984b3806da9187b53c4c7ac3f84c7c667f06d0aa6e9998371341b1ea84fc63b3.css?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/js.cookie.self-a0a4861d9b643465d87ef0d876a7e6b312840825e48e54cd216f92535af4bbca.js?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/cookie.self-7a676ea83c6071edcfa30be5a5443e022dd67b7969ac68e8e48ab04f6c58163d.js?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/beers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da94a8985a9ba3e4034556.png" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-03 22:25:48 -0500
+
+
+Started GET "/beers/1" for ::1 at 2016-01-03 22:25:57 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.1ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/application.self-3c9557022358e913e8efebe0f87411ffbb7cb99cd7dd97a4eeb041dd24950ed6.css?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/js.cookie.self-a0a4861d9b643465d87ef0d876a7e6b312840825e48e54cd216f92535af4bbca.js?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/cookie.self-7a676ea83c6071edcfa30be5a5443e022dd67b7969ac68e8e48ab04f6c58163d.js?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/beers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da94a8985a9ba3e4034556.png" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-03 22:25:57 -0500
+
+
+Started GET "/beers/1" for ::1 at 2016-01-03 22:26:15 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.2ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1995ms (Views: 1993.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/application.self-9aaf6b1aa266366e32af18b83ea4a6087fde1f59e7488e8dca8bdc1d87d97e5f.css?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/js.cookie.self-a0a4861d9b643465d87ef0d876a7e6b312840825e48e54cd216f92535af4bbca.js?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/cookie.self-7a676ea83c6071edcfa30be5a5443e022dd67b7969ac68e8e48ab04f6c58163d.js?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/beers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da94a8985a9ba3e4034556.png" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-03 22:26:17 -0500
+
+
+Started GET "/beers/1" for ::1 at 2016-01-03 22:26:25 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.1ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1800ms (Views: 1798.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/cookie.self-7a676ea83c6071edcfa30be5a5443e022dd67b7969ac68e8e48ab04f6c58163d.js?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/js.cookie.self-a0a4861d9b643465d87ef0d876a7e6b312840825e48e54cd216f92535af4bbca.js?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/application.self-3479b16009c05107945574f6eef42d1a5df210c97934138ba0906999a37bdc5a.css?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/beers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da94a8985a9ba3e4034556.png" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-03 22:26:27 -0500
+
+
+Started GET "/beers/1" for ::1 at 2016-01-03 22:26:31 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.1ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1864ms (Views: 1863.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-bc08b0937cb1b1830d246d02a2876dd872ecac5251553f40bb46b32576f13945.css?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/js.cookie.self-a0a4861d9b643465d87ef0d876a7e6b312840825e48e54cd216f92535af4bbca.js?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/cookie.self-7a676ea83c6071edcfa30be5a5443e022dd67b7969ac68e8e48ab04f6c58163d.js?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/beers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da94a8985a9ba3e4034556.png" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-03 22:26:33 -0500
+
+
+Started GET "/beers/1" for ::1 at 2016-01-03 22:26:40 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.1ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/application.self-3c9557022358e913e8efebe0f87411ffbb7cb99cd7dd97a4eeb041dd24950ed6.css?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/cookie.self-7a676ea83c6071edcfa30be5a5443e022dd67b7969ac68e8e48ab04f6c58163d.js?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/js.cookie.self-a0a4861d9b643465d87ef0d876a7e6b312840825e48e54cd216f92535af4bbca.js?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/beers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da94a8985a9ba3e4034556.png" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-03 22:26:40 -0500
+
+
+Started GET "/index" for ::1 at 2016-01-03 22:27:05 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2016-01-03 22:28:13 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2362ms (Views: 2361.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8ab19df4389ee529db3d85b4c465c92cbab21fd2cf7de0a84449c1f5462beb08.css?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/js.cookie.self-a0a4861d9b643465d87ef0d876a7e6b312840825e48e54cd216f92535af4bbca.js?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/cookie.self-7a676ea83c6071edcfa30be5a5443e022dd67b7969ac68e8e48ab04f6c58163d.js?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/beers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/assets/bottles-c294946daece026ab59d4308f697ddd73f06bcd020fdb52ba2f29dec7984222d.jpg" for ::1 at 2016-01-03 22:28:16 -0500
+
+
+Started GET "/beers/1" for ::1 at 2016-01-03 22:28:18 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.1ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 103ms (Views: 101.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/index" for ::1 at 2016-01-03 22:28:23 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/beers/1" for ::1 at 2016-01-03 22:28:27 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.1ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.2ms)
