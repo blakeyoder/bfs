@@ -1,22 +1,32 @@
+<nav class="beers-nav navbar navbar-inverse navbar-fixed-top">
+  <div class="col-lg-6 col-lg-offset-3">
+    <ul class="nav navbar-nav nav-justified">
+        <li><a href="#">Rustic Sunday</a></li>
+        <li><a href="#">Brand New Eyes</a></li>
+        <li><a href="#">Skin & Bone</a></li>
+    </ul>
+  </div>
+</nav>
+
 <% @beer.images.each do |image| %>
   <% if image.background_image? %>
     <div class="beer-image", style="background-image: url('<%= image.file.url %>')">
-        <div class="col-sm-10 col-sm-offset-1">
-          <div class="col-md-4 col-sm-4">
-            <p class="beer-name"><%= @beer.name %></p>
-            <p><%= @beer.description %></p>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <%= image_tag('rustic-sunday.png', :class => "img-responsive beer-bottle-image") %>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="beer-info">
-              <p>Style: <%= @beer.style %></p>
-              <p>ABV: <%= @beer.abv %></p>
-              <p>IBU: <%= @beer.ibu %></p>
-              <p>Color: <%= @beer.color %></p>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+            <div class="col-md-4 col-sm-4 bottom-align">
+              <p class="beer-name"><%= @beer.name %></p>
+              <p><%= @beer.description %></p>
             </div>
-          </div>
+            <div class="col-md-4 col-sm-4 bottom-align">
+              <%= image_tag('rustic-sunday.png', :class => "img-responsive beer-bottle-image") %>
+            </div>
+            <div class="col-md-4 col-sm-4 bottom-align">
+              <div class="beer-info">
+                <p>Style: <%= @beer.style %></p>
+                <p>ABV: <%= @beer.abv %></p>
+                <p>IBU: <%= @beer.ibu %></p>
+                <p>Color: <%= @beer.color %></p>
+              </div>
+            </div>
         </div>
     </div>
   <% end %>
