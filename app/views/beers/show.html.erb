@@ -3,33 +3,29 @@
     <ul class="nav navbar-nav nav-justified">
         <li><a href="#">Rustic Sunday</a></li>
         <li><a href="#">Brand New Eyes</a></li>
-        <li><a href="#">Skin & Bone</a></li>
+        <li><a href="#">Skin & Bones</a></li>
     </ul>
   </div>
 </nav>
 
-<% @beer.images.each do |image| %>
-  <% if image.background_image? %>
-    <div class="beer-image", style="background-image: url('<%= image.file.url %>')">
-        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 margin">
-            <div class="col-md-4 col-sm-4 bottom-align">
-              <p class="beer-name"><%= @beer.name %></p>
-              <p><%= @beer.description %></p>
-            </div>
-            <div class="col-md-4 col-sm-4 bottom-align">
-              <%= image_tag('rustic-sunday.png', :class => "img-responsive beer-bottle-image") %>
-            </div>
-            <div class="col-md-4 col-sm-4 bottom-align">
-              <div class="beer-info">
-                <p>Style: <%= @beer.style %></p>
-                <p>ABV: <%= @beer.abv %></p>
-                <p>IBU: <%= @beer.ibu %></p>
-                <p>Color: <%= @beer.color %></p>
-              </div>
-            </div>
+<div class="beer-image", style="background-image: url('<%= show_bg_img %>')">
+    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+        <div class="col-md-4 col-sm-4 bottom-align">
+          <p class="beer-name"><%= @beer.name %></p>
+          <p><%= @beer.description %></p>
+        </div>
+        <div class="col-md-4 col-sm-4 bottom-align">
+          <%= image_tag('rustic-sunday.png', :class => "img-responsive beer-bottle-image") %>
+        </div>
+        <div class="col-md-4 col-sm-4 bottom-align">
+          <div class="beer-info">
+            <p>Style: <%= @beer.style %></p>
+            <p>ABV: <%= @beer.abv %></p>
+            <p>IBU: <%= @beer.ibu %></p>
+            <p>Color: <%= @beer.color %></p>
+          </div>
         </div>
     </div>
-  <% end %>
-<% end %>
+</div>
 
 <!-- <p><%= link_to 'Upload new image', new_beer_image_path(@beer) %></p> -->
