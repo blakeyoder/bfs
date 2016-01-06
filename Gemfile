@@ -29,6 +29,9 @@ gem "paperclip", "~> 4.3"
 gem 'aws-sdk', '< 2.0'
 
 gem 'figaro'
+
+gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
