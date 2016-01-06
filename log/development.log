@@ -41724,3 +41724,322 @@ Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da9
 
 
 Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-04 21:03:43 -0500
+
+
+Started GET "/beers/1" for ::1 at 2016-01-05 21:04:46 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (11.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (36.9ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (33.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (4769.9ms)
+Completed 200 OK in 6856ms (Views: 6485.8ms | ActiveRecord: 71.0ms)
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/js.cookie.self-a0a4861d9b643465d87ef0d876a7e6b312840825e48e54cd216f92535af4bbca.js?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/cookie.self-7a676ea83c6071edcfa30be5a5443e022dd67b7969ac68e8e48ab04f6c58163d.js?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/application.self-3c9557022358e913e8efebe0f87411ffbb7cb99cd7dd97a4eeb041dd24950ed6.css?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/beers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da94a8985a9ba3e4034556.png" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-05 21:04:56 -0500
+
+
+Started GET "/beers/1/images/new" for ::1 at 2016-01-05 21:05:19 -0500
+Processing by ImagesController#new as HTML
+  Parameters: {"beer_id"=>"1"}
+  [1m[35mBeer Load (0.1ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered images/new.html.erb within layouts/application (1020.2ms)
+Completed 200 OK in 1122ms (Views: 1118.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/beers/1/images" for ::1 at 2016-01-05 21:06:00 -0500
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lE+W1zI9KauEF39JLELnzEQNUvbLnhrhXLF5Ukzv7p4uasIc78MG2roXkhtzxz96hJjJsC8KwZFhNd/zsm+39g==", "image"=>{"title"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fe7d215d788 @tempfile=#<Tempfile:/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/RackMultipart20160105-11927-jblkyg.jpg>, @original_filename="rustic.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[file]\"; filename=\"rustic.jpg\"\r\nContent-Type: image/jpeg\r\n">, "background_image"=>"1"}, "commit"=>"Upload Image", "beer_id"=>"1"}
+  [1m[36mBeer Load (0.2ms)[0m  [1mSELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-11927-8bpj7n.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-11927-cnqa25.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-11927-cnqa25.jpg[0]'
+Command :: convert '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-11927-cnqa25.jpg[0]' -auto-orient -resize "600x600>" '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/45c0651de20cd42eb91e3701fceeaa5320160105-11927-if0bln'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-11927-cnqa25.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-11927-cnqa25.jpg[0]'
+Command :: convert '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-11927-cnqa25.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/45c0651de20cd42eb91e3701fceeaa5320160105-11927-1rc46hj'
+Command :: file -b --mime '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-11927-1195srp.jpg'
+  [1m[36mImage Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "images" WHERE "images"."background_image" = 't' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-11927-7ih5no.jpg'
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "images" WHERE "images"."background_image" = 't' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered images/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 12416ms (Views: 774.2ms | ActiveRecord: 0.7ms)
+  [1m[36mImage Load (19.8ms)[0m  [1mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mImage Load (0.4ms)[0m  SELECT "images".* FROM "images"
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mImage Load (0.3ms)[0m  SELECT "images".* FROM "images"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "images"[0m
+  [1m[35mImage Load (0.3ms)[0m  SELECT  "images".* FROM "images"  ORDER BY "images"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+
+
+Started POST "/beers/1/images" for ::1 at 2016-01-05 21:12:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (34.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7e0rxQTHpbJuJUzlgT1SRs0bzy4c+yt/avRfRRIgl2dXyH8O2TmKw1AlobfeuIrwDY5UaPhv8A9XcPnk7KDODw==", "image"=>{"title"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fefce9e3cc8 @tempfile=#<Tempfile:/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/RackMultipart20160105-12112-2n2kdb.jpg>, @original_filename="rustic.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[file]\"; filename=\"rustic.jpg\"\r\nContent-Type: image/jpeg\r\n">, "background_image"=>"0"}, "commit"=>"Upload Image", "beer_id"=>"1"}
+  [1m[35mBeer Load (37.9ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12112-93nqir.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12112-1uc765p.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12112-1uc765p.jpg[0]'
+Command :: convert '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12112-1uc765p.jpg[0]' -auto-orient -resize "600x600>" '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/381c04531027d5919aca68ecacbe026f20160105-12112-swmkwl'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12112-1uc765p.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12112-1uc765p.jpg[0]'
+Command :: convert '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12112-1uc765p.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/381c04531027d5919aca68ecacbe026f20160105-12112-15gy5cn'
+Command :: file -b --mime '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12112-f16390.jpg'
+  [1m[35mSQL (114.9ms)[0m  INSERT INTO "images" ("title", "file_file_name", "file_content_type", "file_file_size", "file_updated_at", "background_image", "beer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["title", ""], ["file_file_name", "rustic.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 737335], ["file_updated_at", "2016-01-06 02:12:14.029866"], ["background_image", "f"], ["beer_id", 1], ["created_at", "2016-01-06 02:12:17.921147"], ["updated_at", "2016-01-06 02:12:17.921147"]]
+[paperclip] saving /images/files/000/000/011/original/rustic.jpg
+[AWS S3 403 1.164185 0 retries] put_object(:acl=>:public_read,:bucket_name=>"birdsfly",:content_length=>737335,:content_type=>"image/jpeg",:data=>Paperclip::UploadedFileAdapter: rustic.jpg,:key=>"images/files/000/000/011/original/rustic.jpg") AWS::S3::Errors::AccessDenied Access Denied
+
+  [1m[36m (58.3ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 6790ms (ActiveRecord: 211.9ms)
+
+AWS::S3::Errors::AccessDenied (Access Denied):
+  app/controllers/images_controller.rb:12:in `create'
+
+
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.1ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (206.9ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fefcad34908 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fefcad34610 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fefcad2fe08 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/beers/1/images" for ::1 at 2016-01-05 21:23:25 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7e0rxQTHpbJuJUzlgT1SRs0bzy4c+yt/avRfRRIgl2dXyH8O2TmKw1AlobfeuIrwDY5UaPhv8A9XcPnk7KDODw==", "image"=>{"title"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007ff603f2ac28 @tempfile=#<Tempfile:/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/RackMultipart20160105-12433-1kld0mh.jpg>, @original_filename="rustic.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[file]\"; filename=\"rustic.jpg\"\r\nContent-Type: image/jpeg\r\n">, "background_image"=>"0"}, "commit"=>"Upload Image", "beer_id"=>"1"}
+  [1m[35mBeer Load (5.9ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-q7jsoh.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-uc4s0g.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-uc4s0g.jpg[0]'
+Command :: convert '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-uc4s0g.jpg[0]' -auto-orient -resize "600x600>" '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/ec43c45cb8144b5d9aca2ce2558c541220160105-12433-zgqqxm'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-uc4s0g.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-uc4s0g.jpg[0]'
+Command :: convert '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-uc4s0g.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/ec43c45cb8144b5d9aca2ce2558c541220160105-12433-14p248u'
+Command :: file -b --mime '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-yom9hm.jpg'
+  [1m[35mSQL (48.9ms)[0m  INSERT INTO "images" ("title", "file_file_name", "file_content_type", "file_file_size", "file_updated_at", "background_image", "beer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["title", ""], ["file_file_name", "rustic.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 737335], ["file_updated_at", "2016-01-06 02:23:26.532343"], ["background_image", "f"], ["beer_id", 1], ["created_at", "2016-01-06 02:23:28.870892"], ["updated_at", "2016-01-06 02:23:28.870892"]]
+[paperclip] saving /images/files/000/000/011/original/rustic.jpg
+[AWS S3 200 2.436488 0 retries] put_object(:acl=>:public_read,:bucket_name=>"birdsfly",:content_length=>737335,:content_type=>"image/jpeg",:data=>Paperclip::UploadedFileAdapter: rustic.jpg,:key=>"images/files/000/000/011/original/rustic.jpg")  
+
+[paperclip] saving /images/files/000/000/011/medium/rustic.jpg
+[AWS S3 200 0.461288 0 retries] put_object(:acl=>:public_read,:bucket_name=>"birdsfly",:content_length=>107140,:content_type=>"image/jpeg",:data=>Paperclip::FileAdapter: ec43c45cb8144b5d9aca2ce2558c541220160105-12433-zgqqxm,:key=>"images/files/000/000/011/medium/rustic.jpg")  
+
+[paperclip] saving /images/files/000/000/011/thumb/rustic.jpg
+[AWS S3 200 0.226092 0 retries] put_object(:acl=>:public_read,:bucket_name=>"birdsfly",:content_length=>35712,:content_type=>"image/jpeg",:data=>Paperclip::FileAdapter: ec43c45cb8144b5d9aca2ce2558c541220160105-12433-14p248u,:key=>"images/files/000/000/011/thumb/rustic.jpg")  
+
+  [1m[36m (95.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/beers/1
+Completed 302 Found in 6145ms (ActiveRecord: 151.2ms)
+
+
+Started GET "/beers/1" for ::1 at 2016-01-05 21:23:32 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.2ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.4ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (20.2ms)
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `url' for #<Image:0x007ff6048f9f38>):
+     8:   </div>
+     9: </nav>
+    10: 
+    11: <div class="beer-image", style="background-image: url('<%= show_bg_img %>')">
+    12:     <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+    13:         <div class="col-md-4 col-sm-4 bottom-align">
+    14:           <p class="beer-name"><%= @beer.name %></p>
+  app/helpers/beers_helper.rb:5:in `block in show_bg_img'
+  app/helpers/beers_helper.rb:3:in `show_bg_img'
+  app/views/beers/show.html.erb:11:in `_app_views_beers_show_html_erb___1281321354449260423_70347296990420'
+
+
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.2ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (75.6ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/yoderblake/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (183.6ms)
+
+
+Started GET "/beers/1" for ::1 at 2016-01-05 21:23:42 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBeer Load (0.1ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."beer_id" = ?[0m  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (1192.4ms)
+Completed 200 OK in 1482ms (Views: 1469.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-3c9557022358e913e8efebe0f87411ffbb7cb99cd7dd97a4eeb041dd24950ed6.css?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/beers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/cookie.self-7a676ea83c6071edcfa30be5a5443e022dd67b7969ac68e8e48ab04f6c58163d.js?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/images.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/js.cookie.self-a0a4861d9b643465d87ef0d876a7e6b312840825e48e54cd216f92535af4bbca.js?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/logo-resized-a501be9d9415932b9a48a8a33276a2d2f7b5e0c171d9addac97cb715e60ed6b5.png" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-01-05 21:23:44 -0500
+
+
+Started GET "/assets/rustic-sunday-dc7a6befcff0e9d10804058cd2adc1b8c0617937d7da94a8985a9ba3e4034556.png" for ::1 at 2016-01-05 21:23:44 -0500
+  [1m[36mImage Load (2.2ms)[0m  [1mSELECT "images".* FROM "images"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+[AWS S3 404 0.696071 0 retries] head_object(:bucket_name=>"birdsfly",:key=>"images/files/000/000/010/original/rustic.jpg") AWS::S3::Errors::NoSuchKey No Such Key
+
+[AWS S3 404 0.495892 0 retries] head_object(:bucket_name=>"birdsfly",:key=>"images/files/000/000/010/medium/rustic.jpg") AWS::S3::Errors::NoSuchKey No Such Key
+
+[AWS S3 404 0.068311 0 retries] head_object(:bucket_name=>"birdsfly",:key=>"images/files/000/000/010/thumb/rustic.jpg") AWS::S3::Errors::NoSuchKey No Such Key
+
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "images" WHERE "images"."id" = ?[0m  [["id", 10]]
+  [1m[35m (6.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+[AWS S3 200 0.101281 0 retries] head_object(:bucket_name=>"birdsfly",:key=>"images/files/000/000/011/original/rustic.jpg")  
+
+[AWS S3 200 0.199695 0 retries] head_object(:bucket_name=>"birdsfly",:key=>"images/files/000/000/011/medium/rustic.jpg")  
+
+[AWS S3 200 0.068823 0 retries] head_object(:bucket_name=>"birdsfly",:key=>"images/files/000/000/011/thumb/rustic.jpg")  
+
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "images" WHERE "images"."id" = ?  [["id", 11]]
+  [1m[36m (53.5ms)[0m  [1mcommit transaction[0m
+[paperclip] deleting /images/files/000/000/011/original/rustic.jpg
+[AWS S3 204 0.117272 0 retries] delete_object(:bucket_name=>"birdsfly",:key=>"images/files/000/000/011/original/rustic.jpg")  
+
+[paperclip] deleting /images/files/000/000/011/medium/rustic.jpg
+[AWS S3 204 0.076398 0 retries] delete_object(:bucket_name=>"birdsfly",:key=>"images/files/000/000/011/medium/rustic.jpg")  
+
+[paperclip] deleting /images/files/000/000/011/thumb/rustic.jpg
+[AWS S3 204 0.076889 0 retries] delete_object(:bucket_name=>"birdsfly",:key=>"images/files/000/000/011/thumb/rustic.jpg")  
+
+
+
+Started GET "/beers/1/images/new" for ::1 at 2016-01-05 21:24:21 -0500
+Processing by ImagesController#new as HTML
+  Parameters: {"beer_id"=>"1"}
+  [1m[35mBeer Load (0.1ms)[0m  SELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered images/new.html.erb within layouts/application (239.1ms)
+Completed 200 OK in 276ms (Views: 274.6ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/beers/1/images" for ::1 at 2016-01-05 21:24:40 -0500
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ncGxV4n0MT497+n5nFF9U9uEvVYSErHzqp5OEky5mQ8n5OWcVAoeTwPvBKvD1KXlGxEmEPaGaoOXGuizsjnAZw==", "image"=>{"title"=>"", "file"=>#<ActionDispatch::Http::UploadedFile:0x007ff607f4d558 @tempfile=#<Tempfile:/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/RackMultipart20160105-12433-giryhv.jpg>, @original_filename="rustic.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[file]\"; filename=\"rustic.jpg\"\r\nContent-Type: image/jpeg\r\n">, "background_image"=>"1"}, "commit"=>"Upload Image", "beer_id"=>"1"}
+  [1m[36mBeer Load (0.1ms)[0m  [1mSELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-5c8ig1.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-17lgojk.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-17lgojk.jpg[0]'
+Command :: convert '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-17lgojk.jpg[0]' -auto-orient -resize "600x600>" '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/5526910bbbc1b2a3a7eaa8393f52e0f820160105-12433-18zcpof'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-17lgojk.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-17lgojk.jpg[0]'
+Command :: convert '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-17lgojk.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/5526910bbbc1b2a3a7eaa8393f52e0f820160105-12433-15jkmr1'
+Command :: file -b --mime '/var/folders/fn/7tfn9yfx2lgg02rgndl56r0m0000gn/T/fe9e025d26e2cfeba96a5e0934cc6c6020160105-12433-kvv06r.jpg'
+  [1m[36mImage Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "images" WHERE "images"."background_image" = 't' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "images" ("title", "file_file_name", "file_content_type", "file_file_size", "file_updated_at", "background_image", "beer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["title", ""], ["file_file_name", "rustic.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 737335], ["file_updated_at", "2016-01-06 02:24:40.719738"], ["background_image", "t"], ["beer_id", 1], ["created_at", "2016-01-06 02:24:41.574074"], ["updated_at", "2016-01-06 02:24:41.574074"]]
+[paperclip] saving /images/files/000/000/012/original/rustic.jpg
+[AWS S3 200 2.228227 0 retries] put_object(:acl=>:public_read,:bucket_name=>"birdsfly",:content_length=>737335,:content_type=>"image/jpeg",:data=>Paperclip::UploadedFileAdapter: rustic.jpg,:key=>"images/files/000/000/012/original/rustic.jpg")  
+
+[paperclip] saving /images/files/000/000/012/medium/rustic.jpg
+[AWS S3 200 0.345816 0 retries] put_object(:acl=>:public_read,:bucket_name=>"birdsfly",:content_length=>107140,:content_type=>"image/jpeg",:data=>Paperclip::FileAdapter: 5526910bbbc1b2a3a7eaa8393f52e0f820160105-12433-18zcpof,:key=>"images/files/000/000/012/medium/rustic.jpg")  
+
+[paperclip] saving /images/files/000/000/012/thumb/rustic.jpg
+[AWS S3 200 0.259704 0 retries] put_object(:acl=>:public_read,:bucket_name=>"birdsfly",:content_length=>35712,:content_type=>"image/jpeg",:data=>Paperclip::FileAdapter: 5526910bbbc1b2a3a7eaa8393f52e0f820160105-12433-15jkmr1,:key=>"images/files/000/000/012/thumb/rustic.jpg")  
+
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mImage Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "images" WHERE ("images"."background_image" = 't' AND "images"."id" != 12) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/beers/1
+Completed 302 Found in 3769ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/beers/1" for ::1 at 2016-01-05 21:24:44 -0500
+Processing by BeersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBeer Load (0.1ms)[0m  [1mSELECT  "beers".* FROM "beers" WHERE "beers"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."beer_id" = ?  [["beer_id", 1]]
+  Rendered beers/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.2ms)
