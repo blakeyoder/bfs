@@ -20,3 +20,9 @@
 @mixin the-quick-ease($property){
   @include transition($property .2s ease-out)
 }
+
+@mixin tablet-text-center {
+  @media only screen and (max-width: 992px){
+    @content;
+  }
+}

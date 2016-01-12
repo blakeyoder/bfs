@@ -1,27 +1,15 @@
 // Place all the styles related to the beers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-nav.beers-nav{
-  background-color: black;
-  margin-top: 100px;
-  min-height: 60px;
-  box-shadow: none;
-}
-
-.nav-justified > li {
-  float: none;
-}
-
 .beer-image {
   z-index: 0;
   position: relative;
-  left: 0;
   display: table;
-  min-height: 600px;
+  min-height: 800px;
   width: 100%;
-  background-position: 50% 50%;
+  background-position: 50% -5%;
   background-size: cover;
-  margin-top: 142px;
+  margin-top: 100px;
   &:before {
     content: " ";
     width: 100%;
@@ -37,35 +25,40 @@ nav.beers-nav{
   }
 }
 
-.col-lg-10, .col-md-10 {
-  display: table;
+.beer-wrapper {
   margin-top: 400px;
+  @include bp-small {
+    margin-top: 300px;
+  }
 }
 
 .beer-name {
   color: black;
   font-family: $main-font;
+  font-size: 25px;
+  @include tablet-text-center {
+    text-align: center;
+    margin-top: 15px;
+  }
 }
 
 .beer-bottle-image {
-  margin: 0 auto;
-  max-width: 55%;
+
 }
 
 .beer-info {
   color: black;
   text-align: right;
+  min-width: 200px;
   font-family: $main-font;
+  @include tablet-text-center {
+    text-align: center;
+    margin-top: 10px;
+  }
 }
 
 .bottom-align  {
   display: table-cell;
   vertical-align: bottom;
   float: none;
-}
-
-.beer-awards {
-  font-family: $main-font;
-  text-align: center;
-  color: black;
 }
