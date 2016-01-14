@@ -1,0 +1,13 @@
+<div class="container beers-list">
+  <% @beer.each do |beer| %>
+    <div class="col-md-4 beer-view">
+      <%= link_to image_tag('rusticBottle.png', :class => "img-responsive index-bottle-image"), beer_path(beer) %>
+      <h1 id="beer-heading"><%= beer.name %></h1>
+      <p id="beer-desc"><%= beer.description %></p>
+      <p id="beer-facts">Style: <%= beer.style %></p>
+      <p id="beer-facts">ABV: <%= beer.abv %></p>
+      <p id="beer-facts">IBU: <%= beer.ibu %></p>
+      <p id="beer-facts">Color: <%= beer.color %></p>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,38 @@
+//index page syles
+.body {
+  background-color: white;
+}
+
+.beers-list{
+  padding-top: 200px;
+}
+
+#beer-heading {
+  font-family: $main-font;
+  font-size: 20px;
+  //color: #4A4A4A;
+  color: white;
+  line-height: 20px;
+  text-align: center;
+}
+
+#beer-desc{
+  @extend #beer-heading;
+  font-size: 14px;
+}
+
+#beer-facts {
+  @extend #beer-desc;
+}
+
+.beer-view {
+  padding-top: 20px;
+}
+
+// .index-bottle-image {
+//   transition: 0.5s;
+//   &:hover {
+//     transition: 0.5s;
+//     opacity: 0.7;
+//   }
+// }
