@@ -18,8 +18,20 @@ class ImagesController < ApplicationController
     end
   end
 
+  def edit
+    @image = @beer.images.find(image_params)
+  end
+
+  def update
+    @image = @beer.images.find(image_params)
+    if @image.update_attributes
+      
+    else
+      render 'edit'
+  end
+
   def image_params
-    params.require(:image).permit(:title, :file, :background_image, :beer_image)
+    params.require(:image).permit(:title, :file, :background_image, :beer_image, :beer_id)
   end
 
   private
