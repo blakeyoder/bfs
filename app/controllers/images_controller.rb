@@ -25,9 +25,10 @@ class ImagesController < ApplicationController
   def update
     @image = @beer.images.find(image_params)
     if @image.update_attributes
-      
+
     else
       render 'edit'
+    end
   end
 
   def image_params
