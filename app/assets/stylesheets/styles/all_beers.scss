@@ -15,6 +15,13 @@
   text-align: center;
 }
 
+.index-bottle-image{
+  @include in-between {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+
 #beer-desc{
   @extend #beer-heading;
   font-size: 14px;

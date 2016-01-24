@@ -26,3 +26,9 @@
     @content;
   }
 }
+
+@mixin in-between {
+  @media only screen and (max-width: 991px) and (min-width: 400px){
+    @content;
+  }
+}
