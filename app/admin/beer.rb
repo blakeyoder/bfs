@@ -1,4 +1,7 @@
 ActiveAdmin.register Beer do
+  def index
+    @page_title = "BEERS"
+  end
   permit_params :name, :description, :style, :abv, :ibu, :color, images_attributes: [:id, :title, :file, :background_image, :beer_image, :beer_id]
   form :html => {:multipart => true} do |f|
     f.inputs 'Beer Details' do
