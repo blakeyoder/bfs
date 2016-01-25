@@ -227,12 +227,19 @@ a.btn:hover {
   width: 375px;
   height: 150px;
   margin: 0 auto;
+  @include bp-medium {
+    width: 300px;
+  }
 }
 
 .banner-text{
   font-family: $main-font;
   color: white;
   font-size: 45px;
+  @include bp-medium {
+    font-size: 35px;
+  }
+
 }
 
 .main-section-home {
@@ -254,31 +261,4 @@ a.btn:hover {
 #short-bio-break {
   border-top: 8px solid #23f0d0;
   margin-top: 40px;
-}
-
-
-
-#links-text{
-  padding-top: 30px;
-  padding-bottom: 50px;
-  color: white;
-  text-align: center;
-  font-family: $main-font;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.link-image{
-  width:100%;
-  margin: 0 auto;
-  @include bp-medium {
-    display: block;
-    margin: 0 auto;
-    width: 65%;
-  }
-  @include bp-small {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-  }
 }
