@@ -1,6 +1,6 @@
 <div class="beer-image", style="background-image: url('<%= show_bg_img %>')">
   <div class="container beer-wrapper">
-    <div class="row">
+    <div class="row bottom-align">
       <div class="col-md-6 col-md-push-3">
         <%= image_tag('rusticBottle.png', :class => "img-responsive beer-bottle-image") %>
       </div>
@@ -8,7 +8,7 @@
         <p class="beer-name"><%= @beer.name %></p>
         <p><%= @beer.description %></p>
       </div>
-    <div class="col-md-3">
+    <div class="col-md-3 beer-descriptions">
       <div class="beer-info pull-down">
         <p id="description-left">Style: <%= @beer.style %></p>
         <p id="description-left">ABV: <%= @beer.abv %></p>

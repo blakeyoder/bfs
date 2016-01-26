@@ -32,6 +32,7 @@
   }
 }
 
+
 .beer-name {
   color: black;
   font-family: $main-font;
@@ -42,13 +43,22 @@
   }
 }
 
-.beer-bottle-image {
-
+.beer-descriptions {
+  @include bottom-align-large-screen {
+    bottom: 38%;
+    display: inline-block;
+    position: absolute;
+  }
+  @include bottom-align-beer-small {
+    bottom: 40%;
+    display: inline-block;
+    position: absolute;
+  }
 }
 
 .beer-info {
   color: black;
-  text-align: right;
+  text-align: left;
   min-width: 200px;
   font-family: $main-font;
   @include tablet-text-center {
