@@ -13,22 +13,22 @@
   &:before {
     content: " ";
     width: 100%;
-    height: 1250px;
+    height: 100%;
     position: absolute;
     z-index: -1;
     top: 0;
     left: 0;
     background: -moz-linear-gradient(bottom,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 60%); /* FF3.6-15 */
     background: -webkit-linear-gradient(bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 60%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to top,  rgba(255,255,255,1) 35%,rgba(255,255,255,0) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to top,  rgba(255,255,255,1) 40%,rgba(255,255,255,0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
   }
 }
 
 .beer-wrapper {
-  margin-top: 400px;
+  margin-top: 300px;
   @include bp-small {
-    margin-top: 300px;
+    margin-top: 200px;
   }
 }
 
