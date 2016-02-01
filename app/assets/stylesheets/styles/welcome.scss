@@ -209,7 +209,7 @@ a.btn:hover {
   position: relative;
   left: 0;
   display: table;
-  min-height: 600px;
+  min-height: 430px;
   width: 100%;
   background: image-url('bottles.jpg') no-repeat;
   background-position: 50% 50%;
@@ -246,20 +246,22 @@ a.btn:hover {
 }
 
 .short-about {
+  height: 350px;
   padding: 100px 0;
-  background: image-url('concrete_seamless.png') center center;
+  //background-color: #2C2C33;
 }
 
 .overlay {
-  color: #2C2C33;
-  z-index: 2;
+  background-image:
+    linear-gradient(rgba(17, 17, 20, 0.6), rgba(17, 17, 20, 0.6)),
+    image-url('concrete_seamless.png')
 }
 
 .short-bio {
   font-family: "FuturaPT-Book";
-  font-size: 30px;
+  font-size: 25px;
   color: #FFFFFF;
-  line-height: 45px;
+  line-height: 40px;
   text-align: center;
 }
 
@@ -294,4 +296,33 @@ a.btn:hover {
 .our-history-sketch {
   height: 90%;
   width: auto;
+}
+
+.our-history__text-wrapper{
+  border: 2px solid black;
+  height: 506px;
+  width: 50%;
+}
+
+.our-history__text{
+
+}
+
+#our-history__banner-text {
+  font-family: $main-font;
+  font-size: 64px;
+  text-align: center;
+  color: black;
+}
+
+.our-beers-text-wrapper {
+  height: 506px;
+  width: 400px;
+  border: 2px solid black;
+}
+
+.our-beers-sketch-wrapper{
+  height: 506px;
+  width: 400px;
+  border: 2px solid black;
 }
