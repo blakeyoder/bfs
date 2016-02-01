@@ -9,6 +9,7 @@ class BeersController < ApplicationController
 
   def show
     @beer = Beer.find(params[:id])
+    @related_beers = Beer.related_beers(@beer)
   end
 
   def create
