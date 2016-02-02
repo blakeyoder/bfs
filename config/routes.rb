@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   resources :beers do
     resources :images
   end
+  resources :events
 
 
   # Example of regular route:

@@ -27,6 +27,8 @@
 
 .beer-wrapper {
   margin-top: 300px;
+  display: flex;
+  flex-direction: column;
   @include bp-small {
     margin-top: 200px;
   }
@@ -44,16 +46,7 @@
 }
 
 .beer-descriptions {
-  @include bottom-align-large-screen {
-    bottom: 38%;
-    display: inline-block;
-    position: absolute;
-  }
-  @include bottom-align-beer-small {
-    bottom: 40%;
-    display: inline-block;
-    position: absolute;
-  }
+
 }
 
 .beer-info {
@@ -61,14 +54,22 @@
   text-align: left;
   min-width: 200px;
   font-family: $main-font;
+  margin-bottom: auto;
   @include tablet-text-center {
     text-align: center;
     margin-top: 10px;
   }
 }
 
-.bottom-align  {
-  display: table-cell;
-  vertical-align: bottom;
-  float: none;
+.related-beers-header {
+  h2 {
+    font-family: $main-font;
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+#header-divider {
+  border: 5px solid #35C8B3;
+  width: 85%;
 }

@@ -18,6 +18,12 @@
         <p id="description-left">Color: <%= @beer.color %></p>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 related-beers-header">
+        <h2>Other Beers</h2>
+        <hr id="header-divider" />
+      </div>
+    </div>
     <div class="related-beers">
       <% @related_beers.each do |beer| %>
         <h1><%= beer.name %></h1>
