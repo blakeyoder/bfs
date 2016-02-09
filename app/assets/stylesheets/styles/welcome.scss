@@ -44,15 +44,15 @@
   width: 200px;
 }
 
-h1 {
-  font-family: "futura-pt", sans-serif;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  color: #000;
-  margin: 0 0 13px 0;
-  text-transform: uppercase;
-  font-size: 20px;
-}
+// h1 {
+//   font-family: "futura-pt", sans-serif;
+//   font-weight: 800;
+//   letter-spacing: 0.08em;
+//   color: #000;
+//   margin: 0 0 13px 0;
+//   text-transform: uppercase;
+//   font-size: 20px;
+// }
 
 p {
   font-size: 20px;
@@ -254,7 +254,7 @@ a.btn:hover {
 
 .short-bio {
   font-family: "FuturaPT-Book";
-  font-size: 25px;
+  font-size: 30px;
   color: #FFFFFF;
   line-height: 40px;
   text-align: center;
@@ -281,15 +281,10 @@ a.btn:hover {
 .our-history {
   height: 506px;
   width: 100%;
-  background: image-url('background.jpg') no-repeat center center;
+  background: linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.9) 41%, rgba(255,255,255,0.95) 70%, #FFFFFF 100%),
+              image-url('background.jpg');
   background-size: cover;
-  &:before {
-    content: " ";
-    width: 100%;
-    height: 506px;
-    position: absolute;
-    background: linear-gradient(89deg, rgba(255,255,255,0.17) 0%, rgba(255,255,255,0.85) 52%, #FFFFFF 78%);
-  }
+  background-repeat: no-repeat;
 }
 
 .our-history-sketch {
@@ -297,21 +292,46 @@ a.btn:hover {
   width: auto;
 }
 
-.our-history__text-wrapper{
-  border: 2px solid black;
-  height: 506px;
-  width: 50%;
-}
-
-.our-history__text{
-
+.farm-sketch {
+  padding-left: 65px;
+  @include bp-medium {
+    display: none;
+  }
+  @include image-padding-small {
+    padding-top: 85px;
+  }
+  @include image-padding-medium {
+    padding-top: 70px;
+  }
+  @include image-padding-large {
+    padding-top: 45px;
+  }
+  @include image-padding-xlarge {
+    padding-top: 30px;
+  }
 }
 
 #our-history__banner-text {
-  font-family: $main-font;
   font-size: 64px;
+  color: #454545;
+  font-family: $main-font;
   text-align: center;
-  color: black;
+  margin-top: 60px;
+  @include bp-medium {
+    margin-top: 20px;
+  }
+}
+
+#our-history__paragraph {
+  text-align: center;
+  font-size: 18px;
+  font-family: $main-font-book;
+  width: 80%;
+  margin: 0 auto;
+  @include bp-medium {
+    width: 100%;
+    font-size: 16px;
+  }
 }
 
 .our-beers-text-wrapper {
@@ -324,4 +344,9 @@ a.btn:hover {
   height: 506px;
   width: 400px;
   border: 2px solid black;
+}
+
+#header-divider-half {
+  border: 3px solid #35C8B3;
+  width: 50%;
 }

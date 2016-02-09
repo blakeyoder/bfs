@@ -1,0 +1,45 @@
+//footer styles
+footer {
+  width: 100%;
+  min-height: 390px;
+}
+
+.footer-overlay {
+  background-image:
+    linear-gradient(rgba(66,66,66, 0.8), rgba(66,66,66, 0.8)),
+    image-url('concrete_seamless.png')
+}
+
+.footer-wrapper{
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  .footer-section {
+    margin-top: 40px;
+    font-family: $main-font-book;
+    color: white;
+    h2 {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+  #footer-line {
+    width: 80%;
+    margin-left: inherit;
+    color: #D8D8D8;
+  }
+  .footer-bottom {
+    color: white;
+    text-align: center;
+    font-family: $main-font-book;
+    p {
+      font-size: 11px;
+    }
+  }
+}

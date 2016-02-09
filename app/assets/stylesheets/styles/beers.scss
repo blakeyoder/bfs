@@ -26,6 +26,7 @@
 }
 
 .beer-wrapper {
+  position: relative;
   margin-top: 300px;
   display: flex;
   flex-direction: column;
@@ -36,6 +37,9 @@
 
 
 .beer-name {
+  position: absolute;
+  bottom: 100px;
+  left: 4%;
   color: black;
   font-family: $main-font;
   font-size: 25px;
@@ -46,7 +50,9 @@
 }
 
 .beer-descriptions {
-
+  position: absolute;
+  bottom: 100px;
+  right: 4%;
 }
 
 .beer-info {
