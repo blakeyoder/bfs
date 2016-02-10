@@ -17,9 +17,9 @@
 
 #beer-heading {
   font-family: $main-font-book;
-  font-size: 20px;
+  font-size: 25px;
   color: #4A4A4A;
-  line-height: 20px;
+  line-height: 25px;
   text-align: center;
 }
 
@@ -33,7 +33,13 @@
 #beer-desc{
   @extend #beer-heading;
   font-size: 18px;
+  @include bp-medium {
+    width: 70%;
+    margin: 0 auto;
+  }
   @include bp-small {
+    width: 80%;
+    margin: 0 auto;
     font-size: 16px;
   }
 }
