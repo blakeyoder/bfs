@@ -1,1 +1,24 @@
-<h1>Welcome to the Events Page</h1>
+<section class="events-overlay">
+  <section class="events-header-image">
+    <%= image_tag('events-header-sketch.png', class: "img-responsive events-header-sketch") %>
+  </section>
+
+  <div class="container-fluid events-wrapper">
+    <% @events.each do |event| %>
+      <div class="col-lg-10 col-lg-offset-1">
+        <div class="row">
+          <div class="col-md-1">
+            <h1 class="event-month"><%= event.event_date_time.strftime("%^b") %></h1>
+            <h1 class="event-date"><%= event.event_date_time.strftime("%d") %></h1>
+          </div>
+          <div class="col-md-10">
+            <h1 class="event-name"><%= event.name %></h1>
+            <p class="event-location"><%= event.location %></p>
+            <p class="event-description"><%= event.description %></p>
+          </div>
+        </div>
+        <hr class="event-divider" />
+      </div>
+    <% end %>
+  </div>
+</section>
