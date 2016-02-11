@@ -26,6 +26,6 @@ class BeersController < ApplicationController
   end
 
   def related_beer(beer)
-    Beer.where("style LIKE (?) and id <> (?)", beer.style, beer.id).take(5)
+    Beer.where("style LIKE (?) and id <> (?)", beer.style, beer.id).take(3)
   end
 end

@@ -7,10 +7,8 @@ module BeersHelper
     end
   end
 
-  def show_bottle_img(beer, image)
-    # if beer.images(:beer_image).present?
-      "rusticBottle.png"
-    # end
+  def show_bottle_img(beer)
+    "rusticBottle.png"
   end
 
 end

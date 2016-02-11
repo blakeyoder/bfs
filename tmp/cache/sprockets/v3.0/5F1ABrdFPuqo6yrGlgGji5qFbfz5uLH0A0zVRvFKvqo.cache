@@ -1,7 +1,0 @@
-I"b(function() {
-  $(document).ready(function() {
-    $('body').fadeIn();
-  });
-
-}).call(this);
-:ET
