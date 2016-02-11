@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require js.cookie
+//= require velocity
 //= require cookie.js
-//= require turbolinks
+//= require beers.coffee
 //= require_tree .

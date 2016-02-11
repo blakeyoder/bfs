@@ -7,9 +7,9 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
   <script src="https://use.typekit.net/jnt6sbf.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <%= csrf_meta_tags %>
 </head>
 <body>
   <%= render 'shared/navbar' %>

@@ -1,0 +1,7 @@
+I"i(function() {
+  $(document).ready(function() {
+    $('.beers-list').fadeIn();
+  });
+
+}).call(this);
+:ET

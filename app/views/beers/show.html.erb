@@ -1,12 +1,13 @@
 <%= javascript_include_tag('parallax.min.js') %>
 
-<div class="beer-image", style="background-image: url('<%= show_bg_img %>')">
+<div class="beer-image", style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<%= show_bg_img %>')
+  ; background-size: cover; background-position: 50%">
   <div class="container beer-wrapper">
       <div class="col-md-6 col-md-push-3">
         <%= image_tag('rusticBottle.png', :class => "img-responsive beer-bottle-image") %>
       </div>
       <div class="col-md-3 beer-name col-md-pull-6 pull-down">
-        <p><%= @beer.name %></p>
+        <h2><%= @beer.name %></h2>
         <p><%= @beer.description %></p>
       </div>
     <div class="col-md-3 beer-descriptions">
@@ -18,14 +19,5 @@
       </div>
     </div>
 </div>
-<div class="row">
-  <div class="col-md-6 col-md-offset-3 related-beers-header">
-    <h2>Other Beers</h2>
-    <hr id="header-divider" />
-  </div>
-</div>
-<div class="related-beers">
-  <% @related_beers.each do |beer| %>
-    <h1><%= beer.name %></h1>
-  <% end %>
-</div>
+
+<%= render 'shared/relatedbeers' %>

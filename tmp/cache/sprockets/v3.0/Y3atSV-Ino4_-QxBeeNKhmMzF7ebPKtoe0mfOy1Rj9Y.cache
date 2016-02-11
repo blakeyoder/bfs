@@ -1,0 +1,9 @@
+I"~(function() {
+  $(document).ready(function() {
+    $('.beers-list').velocity({
+      opacity: 1
+    });
+  });
+
+}).call(this);
+:ET
