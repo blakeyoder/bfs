@@ -224,6 +224,7 @@ a.btn:hover {
 
 .banner-text{
   font-family: $main-font;
+  font-weight: $main-font-weight;
   color: white;
   font-size: 45px;
   @include bp-medium {
@@ -310,6 +311,7 @@ a.btn:hover {
   font-size: 64px;
   color: #454545;
   font-family: $main-font;
+  font-weight: $main-font-weight;
   text-align: center;
   margin-top: 60px;
   @include bp-medium {
