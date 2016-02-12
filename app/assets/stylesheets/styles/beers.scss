@@ -32,12 +32,12 @@
 .beer-name {
   h2 {
     font-size: 20px;
-    font-family: $main-font-book;
+    font-family: $main-font;
     color: #4A4A4A;
   }
   p {
     font-size: 16px;
-    font-family: $main-font-book;
+    font-family: $main-font;
     color: #4A4A4A;
     line-height: 20px;
   }
@@ -63,7 +63,7 @@
 .beer-info {
   p {
     font-size: 18px;
-    font-family: $main-font-book;
+    font-family: $main-font;
     color: #4A4A4A;
     line-height: 20px;
   }
@@ -71,14 +71,14 @@
     text-align: center;
     margin-top: 15px;
     font-size: 20px;
-    font-family: $main-font-book;
+    font-family: $main-font;
   }
   @include bottom-align-large-screen {
     position: absolute;
     bottom: 100px;
     left: 4%;
     color: black;
-    font-family: $main-font-book;
+    font-family: $main-font;
     font-size: 25px;
   }
 }
@@ -89,13 +89,13 @@
 }
 
 #related-beer__name {
-  font-family: $main-font-book;
+  font-family: $main-font;
   font-size: 18px;
   text-align: center;
 }
 
 #related-beer__style {
-  font-family: $main-font-book;
+  font-family: $main-font;
   font-size: 16px;
   text-align: center;
 }

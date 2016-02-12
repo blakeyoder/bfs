@@ -1,0 +1,11 @@
+I"˜(function() {
+  $(window).load(function() {
+    $('.beers-list').velocity({
+      opacity: 1
+    }, {
+      duration: 650
+    });
+  });
+
+}).call(this);
+:ET
