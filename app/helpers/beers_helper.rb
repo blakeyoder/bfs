@@ -8,7 +8,11 @@ module BeersHelper
   end
 
   def show_bottle_img(beer)
-    "rusticBottle.png"
+    if beer.bottle_image?
+      beer.bottle_image
+    else
+      "generalbeer.png"
+    end
   end
 
 end

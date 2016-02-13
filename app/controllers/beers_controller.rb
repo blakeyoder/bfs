@@ -22,7 +22,7 @@ class BeersController < ApplicationController
   end
 
   def beer_params
-    params.require(:beer).permit(:name, :style, :abv, :ibu, :color, :description)
+    params.require(:beer).permit(:name, :style, :abv, :ibu, :color, :description, :bottle_image)
   end
 
   def related_beer(beer)

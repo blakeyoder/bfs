@@ -15,7 +15,9 @@
         <p id="description-left">Style: <%= @beer.style %></p>
         <p id="description-left">ABV: <%= @beer.abv %></p>
         <p id="description-left">IBU: <%= @beer.ibu %></p>
-        <p id="description-left">Color: <%= @beer.color %></p>
+        <% if @beer.color? %>
+          <p id="description-left">Color: <%= @beer.color %></p>
+        <% end %>
       </div>
     </div>
 </div>

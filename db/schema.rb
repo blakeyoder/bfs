@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160213043746) do
+ActiveRecord::Schema.define(version: 20160213200613) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -53,8 +53,12 @@ ActiveRecord::Schema.define(version: 20160213043746) do
     t.string   "ibu"
     t.string   "color"
     t.text     "description"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+    t.string   "bottle_image_file_name"
+    t.string   "bottle_image_content_type"
+    t.integer  "bottle_image_file_size"
+    t.datetime "bottle_image_updated_at"
   end
 
   create_table "events", force: :cascade do |t|
