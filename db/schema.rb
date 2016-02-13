@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160213204154) do
+ActiveRecord::Schema.define(version: 20160213221350) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -63,6 +63,7 @@ ActiveRecord::Schema.define(version: 20160213204154) do
     t.string   "background_image_content_type"
     t.integer  "background_image_file_size"
     t.datetime "background_image_updated_at"
+    t.integer  "sort_order"
   end
 
   create_table "events", force: :cascade do |t|

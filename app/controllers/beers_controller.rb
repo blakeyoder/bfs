@@ -1,6 +1,6 @@
 class BeersController < ApplicationController
   def index
-    @beer = Beer.all
+    @beer = Beer.all.order(sort_order: :desc)
   end
 
   def new
@@ -22,7 +22,7 @@ class BeersController < ApplicationController
   end
 
   def beer_params
-    params.require(:beer).permit(:name, :style, :abv, :ibu, :color, :description, :bottle_image)
+    params.require(:beer).permit(:name, :style, :abv, :ibu, :color, :description, :bottle_image, :sort_order)
   end
 
   def related_beer(beer)

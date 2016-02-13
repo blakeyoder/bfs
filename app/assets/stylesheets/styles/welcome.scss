@@ -285,7 +285,7 @@ a.btn:hover {
 }
 
 .farm-sketch {
-  padding-left: 65px;
+  padding-left: 100px;
   @include bp-medium {
     display: none;
   }
@@ -304,7 +304,22 @@ a.btn:hover {
 }
 
 .our-beers-sketch {
-  @extend .farm-sketch;
+  padding-left: 65px;
+  @include bp-medium {
+    display: none;
+  }
+  @include image-padding-small {
+    padding-top: 85px;
+  }
+  @include image-padding-medium {
+    padding-top: 70px;
+  }
+  @include image-padding-large {
+    padding-top: 45px;
+  }
+  @include image-padding-xlarge {
+    padding-top: 30px;
+  }
 }
 
 #our-history__banner-text {

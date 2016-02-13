@@ -2,9 +2,10 @@ ActiveAdmin.register Beer do
   def index
     @page_title = "BEERS"
   end
-  permit_params :name, :description, :style, :abv, :ibu, :color, :bottle_image, :background_image
+  permit_params :name, :description, :style, :abv, :ibu, :color, :bottle_image, :background_image, :sort_order
   form :html => {:multipart => true} do |f|
     f.inputs 'Beer Details' do
+      f.input :sort_order, :as => :number
       f.input :name, :required => true
       f.input :description, :required => true, :as => :text
       f.input :style, :required => true
