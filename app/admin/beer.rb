@@ -11,8 +11,8 @@ ActiveAdmin.register Beer do
       f.input :abv, :label => "ABV", :required => true
       f.input :ibu, :label => "IBU", :required => true
       f.input :color, :as => :string, :hint => "This can either be color or SRM"
-      f.input :bottle_image, :as => :file, :hint => "This will be used as your beer's bottle image"
-      f.input :background_image, :as => :file, :hint => "This will be used as the background image on the beer's detail page"
+      f.input :bottle_image, :as => :file, :required => true, :hint => "This will be used as your beer's bottle image"
+      f.input :background_image, :as => :file, :required => true,  :hint => "This will be used as the background image on the beer's detail page"
     end
     f.submit
   end
