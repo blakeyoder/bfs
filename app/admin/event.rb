@@ -1,6 +1,9 @@
 ActiveAdmin.register Event do
-    def index
-      @page_title = "Events"
+    index do
+      column :name
+      column :event_date_time
+      column :location
+      actions
     end
     permit_params :name, :event_date_time, :location, :description, :hyperlink, :event_image
     form :html => {:multipart => true} do |e|
