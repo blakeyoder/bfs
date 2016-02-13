@@ -6,10 +6,10 @@
 .events-header-sketch {
   padding-top: 150px;
   padding-bottom: 75px;
-  max-width: 60%;
+  width: 55%;
   margin: 0 auto;
   @include bp-medium {
-    max-width: 90%;
+    width: 100%;
   }
 }
 
@@ -55,4 +55,33 @@
 .event-divider {
   border: 1px solid #35C8B3;
   width: 92%;
+}
+
+.event-link {
+  color: #454545;
+  transition: .5s;
+  &:hover {
+    color: #35C8B3;
+    transition: .5s;
+    text-decoration: none;
+  }
+}
+
+.event-show__image {
+  position: relative;
+  min-height: 500px;
+  width: 100%;
+  margin-top: 102px;
+  background-size: cover;
+}
+
+.event-show__name {
+  font-family: $main-font;
+  font-weight: $book-font-weight;
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

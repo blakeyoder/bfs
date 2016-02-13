@@ -34,6 +34,7 @@ gem 'figaro'
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 gem 'better_errors'
+gem 'instagram'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
