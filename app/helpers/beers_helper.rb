@@ -1,9 +1,9 @@
 module BeersHelper
-  def show_bg_img
-    @beer.images.each do |image|
-      if image.background_image?
-        return image.file.url
-      end
+  def show_bg_img(beer)
+    if beer.background_image?
+      beer.background_image
+    else
+      
     end
   end
 

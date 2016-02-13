@@ -12,7 +12,9 @@
           <p id="beer-facts"><span id="beer-facts-left">Style:</span> <%= beer.style %></p>
           <p id="beer-facts"><span id="beer-facts-left">ABV:</span> <%= beer.abv %></p>
           <p id="beer-facts"><span id="beer-facts-left">IBU:</span> <%= beer.ibu %></p>
-          <p id="beer-facts"><span id="beer-facts-left">Color:</span> <%= beer.color %></p>
+          <% if beer.color? %>
+            <p id="beer-facts"><span id="beer-facts-left">Color:</span> <%= beer.color %></p>
+          <% end %>
         </div>
       </div>
     <% end %>
