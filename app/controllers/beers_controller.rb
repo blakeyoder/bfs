@@ -1,6 +1,6 @@
 class BeersController < ApplicationController
   def index
-    @beer = Beer.all.order(sort_order: :desc)
+    @beer = Beer.all.order(sort_order: :asc)
   end
 
   def new
