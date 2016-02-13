@@ -14,18 +14,23 @@
     z-index: -1;
     top: 0;
     left: 0;
-    background: linear-gradient(to top,  rgba(255,255,255, 1) 52%,rgba(255,255,255,0) 80%);
+    background: linear-gradient(to top,  rgba(255,255,255, 1) 25%,rgba(255,255,255,0) 80%);
   }
 }
 
 .beer-wrapper {
   position: relative;
-  margin-top: 300px;
+  margin-top: 175px;
   display: flex;
   flex-direction: column;
   @include bp-small {
     margin-top: 200px;
   }
+}
+
+.beer-bottle-image{
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 
@@ -55,7 +60,7 @@
 .beer-descriptions {
   @include bottom-align-large-screen {
     position: absolute;
-    bottom: 0px;
+    bottom: -40px;
     right: 4%;
   }
 }
