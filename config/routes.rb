@@ -8,9 +8,8 @@ Rails.application.routes.draw do
   root 'welcome#landing'
   get 'index' => 'welcome#index'
   get 'about' => 'page#about'
-  resources :beers do
-    resources :images
-  end
+  get 'locations' => 'page#locations'
+  resources :beers
   resources :events
 
 
