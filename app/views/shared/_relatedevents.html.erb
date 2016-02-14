@@ -1,0 +1,6 @@
+<% @upcoming_events.each do |event| %>
+  <div class="col-md-4">
+    <h1 class="related-events-name"><%= link_to(event.name, event) %></h1>
+    <p class="related-events-location"><%= event.location %></p>
+  </div>
+<% end %>

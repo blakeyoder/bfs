@@ -162,3 +162,17 @@ body {
     transition: .5s;
   }
 }
+
+//related events module
+.related-events-name {
+  font-family: $main-font;
+  font-weight: $book-font-weight;
+  font-style: $main-font-style;
+  font-size: 14px;
+}
+
+.related-events-location {
+  @extend .related-events-name;
+  color: #35C8B3;
+  line-height: 10px;
+}
