@@ -1,5 +1,22 @@
-<div class="event-show__image", style="background-image: url('<%= event_image(@event) %>')">
+<div class="event-show__image", style="background-image: url('<%= event_image(@event) %>'); background-position: 50%">
   <!-- <h1 class="event-show__month"><%= @event.event_date_time.strftime("%^b") %></h1>
   <h1 class="event-show__day"><%= @event.event_date_time.strftime("%d") %></h1> -->
   <h1 class="event-show__name"><%= @event.name %></h1>
+</div>
+<div class="container event-location-wrapper">
+    <div class="col-lg-10 col-lg-offset-1">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="event-show__location"><%= @event.location %></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-10">
+          <p class="event-show__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at gravida orci, id maximus felis. Vivamus sed mauris nec est interdum dapibus ac quis elit. In hac habitasse platea dictumst. Phasellus vel ex ut risus consequat interdum. Sed sed congue ipsum, sit amet posuere sem. Nunc malesuada lacus eget ligula suscipit, nec consequat ligula convallis. Vestibulum eget turpis sapien. Vestibulum arcu dui, suscipit non faucibus eget, condimentum et dui. In molestie diam at nulla accumsan ornare. Phasellus sagittis sapien sed purus laoreet venenatis. Nullam tempor ultrices magna, id faucibus tortor iaculis ac. Fusce sollicitudin, felis id congue rhoncus, dolor ante ultrices nibh, non sagittis turpis nulla et erat. Aenean sit amet aliquam metus. Praesent posuere massa at velit eleifend rutrum non vel quam.
+          </p>
+          <%= link_to(@event.friendly_link, @event.hyperlink, class: "event-show__link") %>
+        </div>
+      </div>
+    </div>
 </div>

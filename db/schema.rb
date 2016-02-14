@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160214011905) do
+ActiveRecord::Schema.define(version: 20160214022130) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -80,6 +80,7 @@ ActiveRecord::Schema.define(version: 20160214011905) do
     t.integer  "event_image_file_size"
     t.datetime "event_image_updated_at"
     t.string   "slug"
+    t.string   "friendly_link"
   end
 
   create_table "friendly_id_slugs", force: :cascade do |t|

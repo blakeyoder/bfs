@@ -3,7 +3,7 @@ module EventsHelper
     if event.event_image.present?
       return event.event_image
     else
-      Event.default
+      
     end
   end
 end
