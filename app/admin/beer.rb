@@ -1,11 +1,11 @@
 ActiveAdmin.register Beer do
-  # before_filter do
-  #   Beer.class_eval do
-  #     def to_param
-  #       id.to_s
-  #     end
-  #   end
-  # end
+  controller do
+    def find_resource
+      scoped_collection.friendly.find(params[:id])
+    rescue ActiveRecord::RecordNotFound
+      scoped_collection.find(params[:id])
+    end
+  end
   index do
     column :id
     column :name
