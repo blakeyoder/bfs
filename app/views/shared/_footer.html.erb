@@ -12,14 +12,12 @@
       <div class="col-md-4 footer-section">
         <h2>Upcoming Events</h2>
         <hr id="footer-line">
-        <h3>Sour Stout Bottle Release</h3>
-        <p>January 14, 2016</p>
-        <p>Thomas Creek Brewery</p>
-        <hr id="footer-line">
-        <h3>Sour Stout Bottle Release</h3>
-        <p>January 14, 2016</p>
-        <p>Thomas Creek Brewery</p>
-        <hr id="footer-line">
+        <% Event.upcoming_events.each do |event| %>
+          <h3><%= event.name %></h3>
+          <p><%= event.event_date_time.strftime("%A, %b %d") %></p>
+          <p><%= event.location %></p>
+          <hr id="footer-line">
+        <% end %>
       </div>
     </div>
     <div class="row">
