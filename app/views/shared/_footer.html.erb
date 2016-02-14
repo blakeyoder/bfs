@@ -2,11 +2,19 @@
   <div class="footer-wrapper">
     <div class="row">
       <div class="col-md-4 footer-section">
-        <h2>Another Section</h2>
+        <h2>Contact Us</h2>
         <hr id="footer-line">
       </div>
       <div class="col-md-4 footer-section">
         <h2>Instagram</h2>
+          <div class="row">
+            <% @insta = InstaImage.all %>
+            <% @insta.each do |insta| %>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <%=raw insta.url %>
+            </div>
+            <% end %>
+          </div>
         <hr id="footer-line">
       </div>
       <div class="col-md-4 footer-section">
