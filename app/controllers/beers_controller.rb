@@ -8,7 +8,7 @@ class BeersController < ApplicationController
   end
 
   def show
-    @beer = Beer.find(params[:id])
+    @beer = Beer.friendly.find(params[:id])
     @related_beers = related_beer(@beer)
   end
 
@@ -22,7 +22,7 @@ class BeersController < ApplicationController
   end
 
   def beer_params
-    params.require(:beer).permit(:name, :style, :abv, :ibu, :color, :description, :bottle_image, :sort_order)
+    params.require(:beer).permit(:name, :style, :abv, :ibu, :color, :description, :bottle_image, :sort_order, :slug)
   end
 
   def related_beer(beer)

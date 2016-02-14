@@ -31,6 +31,8 @@ gem 'aws-sdk', '< 2.0'
 
 gem 'figaro'
 
+gem 'friendly_id', '~> 5.1.0'
+
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
 gem 'better_errors'
