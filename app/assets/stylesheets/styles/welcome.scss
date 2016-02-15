@@ -3,197 +3,31 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 // landing page
-.landing-image {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.45),
-      rgba(0, 0, 0, 0.45)
-    ), image-url('background.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+.landing-bg {
+  position: absolute;
+  background: image-url('blackwhitebg.jpg') no-repeat no-repeat 15%;
   background-size: cover;
-  height: 100%;
+  min-height: 800px;
   width: 100%;
 }
 
-.landing-about {
-  background-color: rgba(255,255,255,0.8);
-  max-width: 500px;
-  min-width: 240px;
-  max-height: 550px;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.landing-modal {
+  max-width: 700px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 395px;
+  border: 5px solid #35C8B3;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.modal-title{
+  font-family: $main-font;
+  font-weight: $book-font-weight;
+  font-style: $main-font-style;
+  font-size: 60px;
+  color: white;
   text-align: center;
-  -o-animation: introFade 1s 1;
-  -moz-animation: introFade 1s 1;
-  -webkit-animation: introFade 1s 1;
-  animation: introFade 1s 1;
-  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
-}
-
-.landing-about .headshot {
-  overflow: hidden;
-  margin: 20px auto;
-}
-/* line 104, ../sass/global.scss */
-.landing-about .headshot img {
-  width: 200px;
-}
-
-
-p {
-  font-size: 20px;
-  line-height: 34px;
-}
-/* line 77, ../sass/global.scss */
-p a {
-  color: #000;
-  border-bottom: 1px solid #cfcfcf;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-/* line 81, ../sass/global.scss */
-p a:hover {
-  color: #000000;
-  border-bottom-color: #efe9d1;
-}
-
-.btn:hover {
-  color: #000000;
-  border-bottom-color: #efe9d1;
-}
-
-a.btn {
-  font-size: 20px;
-  color: #000;
-  border: 1px solid #000;
-  padding: 12px 20px 17px 20px;
-  margin: 30px 5px;
-  display: inline-block;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-/* line 56, ../sass/global.scss */
-a.btn:hover {
-  color: #fff;
-  background: #000;
-  border-color: #000;
-}
-
-@-o-keyframes introFade {
-  /* line 115, ../sass/global.scss */
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    transform: scale(0.8, 0.8);
-  }
-
-  /* line 119, ../sass/global.scss */
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-}
-
-@-moz-keyframes introFade {
-  /* line 115, ../sass/global.scss */
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    transform: scale(0.8, 0.8);
-  }
-
-  /* line 119, ../sass/global.scss */
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-}
-
-@-webkit-keyframes introFade {
-  /* line 115, ../sass/global.scss */
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    transform: scale(0.8, 0.8);
-  }
-
-  /* line 119, ../sass/global.scss */
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-}
-
-@keyframes introFade {
-  /* line 115, ../sass/global.scss */
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0.8, 0.8);
-    -moz-transform: scale(0.8, 0.8);
-    -ms-transform: scale(0.8, 0.8);
-    -o-transform: scale(0.8, 0.8);
-    transform: scale(0.8, 0.8);
-  }
-
-60% {
-    opacity: 1;
-    -webkit-transform: scale(1.2, 1.2);
-    -moz-transform: scale(1.2, 1.2);
-    -ms-transform: scale(1.2, 1.2);
-    -o-transform: scale(1.2, 1.2);
-    transform: scale(1.2, 1.2);
-  }
-
-
-
-  /* line 119, ../sass/global.scss */
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    -o-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-}
-
-
-
-.age-checker{
-  width: 200px;
-  height: 400px;
-  margin: 0 auto;
-  padding-top: 100px;
 }
 
 .hero-image {
