@@ -5,10 +5,5 @@ ActiveAdmin.register_page "Dashboard" do
     div class: "blank_slate_container", id: "dashboard_default_message" do
     end
 
-    columns do
-      panel "Overview" do
-
-      end
-    end
   end
 end
