@@ -33,9 +33,6 @@
     font-weight: $book-font-weight;
     font-size: 16px;
     letter-spacing: 3px;
-    @include bp-small {
-      padding-top: 30px;  
-    }
   }
   h2 {
     color: white;
@@ -44,6 +41,13 @@
     margin-top: 0px;
     font-family: $main-font;
     font-weight: $main-font-weight;
+  }
+}
+
+#legal-age {
+  padding-top: 15px;
+  @include bp-small {
+    padding-top: 30px;
   }
 }
 
@@ -71,9 +75,12 @@
   font-size: 32px;
   transition: .5s;
   margin: 10px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
   &:hover{
     transition: .5s;
-    color: black;
     background: #35C8B3;
   }
   @include bp-small {
