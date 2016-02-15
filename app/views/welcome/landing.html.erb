@@ -10,21 +10,22 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
   <%= csrf_meta_tags %>
-</head>
-<body>
-
-<script src="https://use.typekit.net/wtf2syr.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-
-	<link rel="stylesheet" type="text/css" href="main.css">
-
-</head>
-
+  <script src="https://use.typekit.net/wtf2syr.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <body>
   <div class="landing-bg">
     <div class="landing-modal">
-      <h1 class="modal-title">Birds Fly South</h1>
+      <%= image_tag('whitelogotransparent.png', class: "img-responsive bird-img") %>
+      <h1 class="modal-title">birds fly south</h1>
+      <p id="ale-project">ale project</p>
+      <p>
+        To enter this site you must be of legal drinking age?
+      </p>
+      <h2>ARE YOU OVER 21?</h2>
+      <div class="button-wrapper">
+          <button class="yes-button" type="button" name="button">Yes</button>
+          <button class="no-button" type="button" name="button">No</button>
+      </div>
     </div>
   </div>
 </body>
