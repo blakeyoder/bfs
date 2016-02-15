@@ -203,7 +203,7 @@
     }
   }
   @include bp-small {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 }
 
@@ -282,7 +282,7 @@
   width: 80%;
   margin: 0 auto;
   @include bp-medium {
-    width: 70%;
+    width: 80%;
     font-size: 16px;
   }
 }
