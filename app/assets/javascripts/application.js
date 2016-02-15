@@ -18,3 +18,7 @@
 //= require cookie.js
 //= require beers.coffee
 //= require_tree .
+
+$(document).ready(function(){
+  $('.landing-modal').velocity({opacity: 1});
+});
