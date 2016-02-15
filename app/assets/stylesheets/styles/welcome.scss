@@ -42,6 +42,9 @@
     font-family: $main-font;
     font-weight: $main-font-weight;
   }
+  @include bp-small {
+    margin-top: 100px;
+  }
 }
 
 #legal-age {
