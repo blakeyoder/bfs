@@ -3,7 +3,7 @@ module BeersHelper
     if beer.background_image?
       beer.background_image
     else
-      
+      ""
     end
   end
 

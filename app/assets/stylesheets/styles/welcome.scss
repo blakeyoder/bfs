@@ -178,6 +178,39 @@
   }
 }
 
+.beers-button {
+  display: none;
+  @include bp-medium {
+    height: 60px;
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+    background: black;
+    border: none;
+    color: white;
+    font-family: $main-font;
+    font-weight: $main-font-weight;
+    font-size: 32px;
+    transition: .5s;
+    margin-top: 100px;
+    transition: .5s;
+    &:hover {
+      opacity: .8;
+      transition: .5s;
+    }
+    a {
+      color: white;
+    }
+  }
+  @include bp-small {
+    margin-top: 50px;
+  }
+}
+
+.history-button {
+ @extend .beers-button;
+}
+
 .our-history {
   height: 506px;
   width: 100%;
@@ -249,7 +282,7 @@
   width: 80%;
   margin: 0 auto;
   @include bp-medium {
-    width: 100%;
+    width: 70%;
     font-size: 16px;
   }
 }
