@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   # root page, this asks client to confirm age
   root 'welcome#landing'
-  get 'index' => 'welcome#index'
+  get 'home' => 'welcome#index'
   get 'about' => 'page#about'
   get 'locations' => 'page#locations'
   resources :beers
