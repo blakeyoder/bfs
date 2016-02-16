@@ -5,9 +5,9 @@
 // landing page
 .landing-bg {
   position: absolute;
-  background: image-url('blackwhitebg.jpg') no-repeat no-repeat 15%;
+  background: image-url('blackwhitebg.jpg') no-repeat center center fixed;
   background-size: cover;
-  min-height: 800px;
+  min-height: 100%;
   width: 100%;
 }
 
@@ -20,7 +20,7 @@
 
 .landing-modal {
   max-width: 700px;
-  margin-top: 200px;
+  margin-top: 170px;
   margin-left: auto;
   margin-right: auto;
   height: 475px;
@@ -41,9 +41,6 @@
     margin-top: 0px;
     font-family: $main-font;
     font-weight: $main-font-weight;
-  }
-  @include bp-small {
-    margin-top: 100px;
   }
 }
 
