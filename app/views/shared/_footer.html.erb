@@ -15,7 +15,7 @@
           <% @insta.each do |insta| %>
           <div class="col-md-6 col-sm-6 col-xs-6">
             <a href="https://instagram.com/bfsbeer"><%= image_tag(insta.images.low_resolution.url, class: "img-responsive insta-img") %></a>
-            <p>Likes: <%= insta.likes[:count] %></p>
+            <p class="insta-likes">Likes: <%= insta.likes[:count] %></p>
           </div>
           <% end %>
         </div>
