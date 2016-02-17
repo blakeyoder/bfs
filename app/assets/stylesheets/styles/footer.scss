@@ -58,6 +58,11 @@ footer {
 
 .insta-img {
   border: 2px solid white;
+  transition: .5s;
+  &:hover {
+    opacity: 0.7;
+    transition: .5s;
+  }
 }
 
 .insta-likes {
