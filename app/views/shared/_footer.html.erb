@@ -10,14 +10,15 @@
       </div>
       <div class="col-md-4 footer-section">
         <h2>Instagram</h2>
-          <div class="row">
-            <% @insta = InstaImage.all %>
-            <% @insta.each do |insta| %>
-            <div class="col-md-6 col-sm-6 col-xs-6">
-              <%=raw insta.url %>
-            </div>
-            <% end %>
+        <div class="row">
+          <% @insta = Instagram.user_recent_media("39375607", {:count => 4})  %>
+          <% @insta.each do |insta| %>
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <a href="https://instagram.com/bfsbeer"><%= image_tag(insta.images.low_resolution.url, class: "img-responsive insta-img") %></a>
+            <p>Likes: <%= insta.likes[:count] %></p>
           </div>
+          <% end %>
+        </div>
         <hr id="footer-line">
       </div>
       <div class="col-md-4 footer-section">
